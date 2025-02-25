@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area Calculator</title>
+    <script>
+        function calculateRectangleArea() {
+    let length = parseFloat(document.getElementById("length").value);
+    let width = parseFloat(document.getElementById("width").value);
+    let area = length * width;
+    document.getElementById("rectangle-area").innerHTML = "Area: " + area;
+}
+
+    </script>
 </head>
 <body>
     <div class="container">
