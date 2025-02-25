@@ -20,3 +20,6 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
 }
+.rectangle h2, .circle h2 {
+    margin-top: 0;
+}
